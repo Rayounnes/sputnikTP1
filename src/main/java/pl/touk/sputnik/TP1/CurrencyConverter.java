@@ -19,7 +19,7 @@ public class CurrencyConverter {
         Double rate = conversionRate.get(conversionKey);
 
         if (rate == null) {
-            throw new IllegalArgumentException("Conversionss rate unavailable for the " + conversionKey + "pair");
+            throw new IllegalArgumentException("Salut, Conversions rate unavailable for the " + conversionKey + "pair");
         }
 
         return amount*rate;
